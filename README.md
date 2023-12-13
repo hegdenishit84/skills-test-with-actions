@@ -14,10 +14,13 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 </header>
 
 <!--
+
   <<< Author notes: Step 4 >>>
+
   Start this step by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
+
 
 ## Step 4: Add branch protections
 
@@ -38,6 +41,7 @@ Protected branches ensure that collaborators on your repository cannot make irre
 1. Check all build and test jobs that you'd like to see in the newly visible gray box.
 1. Click **Save changes**.
 1. _Once you turn on branch protection, Actions can no longer push directly to the `main` branch. Wait about 20 seconds and then go to the `ci` branch. [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step on the `ci` branch. You'll need to follow instructions on this branch._
+
 
 <footer>
 
